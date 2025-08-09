@@ -37,6 +37,12 @@ You can change it to any model you have installed in Ollama.
 git clone https://github.com/Jodi-Therson/rag-ollama.git
 cd rag-ollama
 ```
+### Extra Steps before installing the dependencies
+- Use Virtual Environment:
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
 2. Install dependencies
 ```
 pip install -r requirements.txt
